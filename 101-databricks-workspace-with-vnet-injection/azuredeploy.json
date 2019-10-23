@@ -27,15 +27,13 @@
       }
     },
     "customPublicSubnetName": {
-      "type": "string",
-      "defaultValue": "public-subnet",
+      "type": "string",     
       "metadata": {
         "description": "The name of the public subnet in the custom VNet."
       }
     },
     "customPrivateSubnetName": {
       "type": "string",
-      "defaultValue": "private-subnet",
       "metadata": {
         "description": "The name of the private subnet in the custom VNet."
       }
