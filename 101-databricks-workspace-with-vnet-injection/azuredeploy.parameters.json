@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workspaceName": {
-      "value": "GEN-UNIQUE"
+      "value": "a0052-Atellica"
     },
     "customVirtualNetworkId": {
-      "value": "GET-PREREQ-existingVNETId"
+      "value": "/subscriptions/217facc9-964a-409f-a1c8-fc2eef2b2f01/resourceGroups/a0052-CoreResources-EUW/providers/Microsoft.Network/virtualNetworks/a0052-vnet01"
     }
   }
 }
