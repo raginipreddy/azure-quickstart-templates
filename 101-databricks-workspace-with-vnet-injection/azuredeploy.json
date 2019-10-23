@@ -4,6 +4,7 @@
   "parameters": {
     "workspaceName": {
       "type": "string",
+      "defaultValue": "a0052-Atellica",
       "metadata": {
         "description": "The name of the Azure Databricks workspace to create."
       }
@@ -22,18 +23,21 @@
     },
     "customVirtualNetworkId": {
       "type": "string",
+      "defaultValue": "/subscriptions/217facc9-964a-409f-a1c8-fc2eef2b2f01/resourceGroups/a0052-CoreResources-EUW/providers/Microsoft.Network/virtualNetworks/a0052-vnet01",
       "metadata": {
         "description": "The complete ARM resource Id of the custom virtual network."
       }
     },
     "customPublicSubnetName": {
       "type": "string",     
+      "defaultValue": "a0052-Databricks-public-sub01",
       "metadata": {
         "description": "The name of the public subnet in the custom VNet."
       }
     },
     "customPrivateSubnetName": {
       "type": "string",
+       "defaultValue": "a0052-Databricks-private-sub01",
       "metadata": {
         "description": "The name of the private subnet in the custom VNet."
       }
